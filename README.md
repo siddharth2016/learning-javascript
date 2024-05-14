@@ -1,2 +1,2 @@
 # learning-javascript
-Learning Javascript.
+Learning Javascript, React and Typescript.
