@@ -44,3 +44,6 @@ console.log(s2.padEnd(3, "*"));
 console.log(s2.trim());
 console.log(s2.trimEnd());
 console.log(s2.repeat(2));
+
+let temp_literal = `Hello ${ss1}`;
+console.log(temp_literal);
