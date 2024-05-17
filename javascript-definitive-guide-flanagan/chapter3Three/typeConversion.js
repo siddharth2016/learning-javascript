@@ -11,3 +11,10 @@ console.log(123.234.toPrecision(3));
 
 console.log(parseFloat("1234"));
 console.log(parseInt("1234.986398"));
+
+console.log([].toString());
+console.log([].toString().valueOf());
+console.log(new Date().valueOf());
+
+console.log(Number([]));
+console.log(Number([99]));
