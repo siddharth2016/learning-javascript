@@ -74,3 +74,39 @@ console.log(2 >> 3);
 console.log(2 << 3);
 console.log(2 >>> 3);
 console.log(1<<1<<3);
+
+console.log("1" == 1);
+console.log(null == undefined);
+console.log(NaN == NaN);
+console.log("" == true);
+console.log("q" == true);
+console.log("1" == true);
+console.log("" === false);
+console.log(1 === true);
+
+console.log("2" > 1);
+console.log("one" < 2);
+console.log("11" < "3");
+console.log("11" < 3);
+
+console.log(1 in [1,2,3]);
+console.log("toString" in obj);
+
+console.log(NaN instanceof Object);
+console.log([1,2] instanceof Array);
+console.log(obj instanceof Object);
+console.log([] instanceof Object);
+
+console.log("1" && 0);
+console.log(null && 1);
+console.log(NaN || 1);
+console.log(!NaN || null);
+
+let d = [1, 2, 3, 4, 5];
+let i = 0;
+console.log(d);
+d[i++] += 1;
+console.log(d);
+d[i++] = d[i++] + 1;
+console.log(d);
+console.log(i);
